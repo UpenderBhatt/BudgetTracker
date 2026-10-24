@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">BudgetTracker</string>
+<!--Navigation-->
+    <string name="nav_home">Home</string>
+    <string name="nav_expenses">Expenses</string>
+    <string name="nav_add">Add</string>
+    <string name="nav_statistics">Statistics</string>
+    <string name="nav_settings">Settings</string>
+<!--titles-->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_expenses">Expenses</string>
+    <string name="title_add_expense">Add Expense</string>
+    <string name="title_analytics">Analytics</string>
+    <string name="title_settings">Settings</string>
+<!--    Budget Setup-->
+    <string name="title_budget_setup">Set Your Budget</string>
+    <string name="budget_amount_label">Budget Amount (£)</string>
+    <string name="budget_period_label">Budget Period</string>
+    <string name="weekly_period">Weekly</string>
+    <string name="monthly_period">Monthly</string>
+    <string name="start_date_label">Start Date</string>
+    <string name="alerts_enabled_label">Enable Budget Alerts</string>
+    <string name="auto_renew_label">Auto-Renew Budget</string>
+    <string name="save_budget_button">Save Budget</string>
+    <string name="select_date_button">Select Date</string>
+    <string name="empty_amount">Please enter a budget amount</string>
+    <string name="invalid_amount">Please enter a valid amount</string>
+    <string name="zero_amount">Amount must be greater than zero</string>
+    <string name="budget_saved">Budget saved successfully</string>
+    <string name="no_budget_label">No budget set up yet</string>
+    <string name="create_budget_button">Create Budget</string>
+    <string name="active_budget_label">Active Budget</string>
+    <string name="active_budget_period_label" formatted="true">Period: %1$s</string>
+    <string name="budget_dates_label">%1$s - %2$s</string>
+    <string name="budget_amount_display">£%1$s</string>
+    <string name="budget_amount_placeholder">0.00</string>
+<!--    Add Expenses-->
+    <string name="title_add_expense_screen">Add Expense</string>
+    <string name="amount_hint">0.00</string>
+    <string name="description_hint">e.g. Weekly shop</string>
+    <string name="description_label">Description</string>
+    <string name="category_label">Category</string>
+    <string name="date_label">Date</string>
+    <string name="recurring_label">Recurring expense</string>
+    <string name="recurring_hint">Auto-deduct each period</string>
+    <string name="frequency_label">Frequency</string>
+    <string name="frequency_weekly">Weekly</string>
+    <string name="frequency_monthly">Monthly</string>
+    <string name="save_expense_button">Save Expense</string>
+    <string name="no_amount_error">Please enter an amount</string>
+    <string name="no_category_error">Please select a category</string>
+    <string name="no_budget_error">Please set up a budget first</string>
+    <string name="expense_saved">Expense saved successfully</string>
+    <string name="currency_symbol">£</string>
+    <string name="frequency_daily">Daily</string>
+<!--List Expenses-->
+    <string name="title_expense_screen">Expenses</string>
+    <string name="no_expenses_label">No expenses yet</string>
+    <string name="no_expenses_hint">Tap the + tab to add your first expense</string>
+    <string name="expense_deleted">Expense deleted</string>
+    <string name="undo_action">Undo</string>
+    <string name="recurring_tag_label">Recurring</string>
+    <string name="total_spent_label">Total Spent</string>
+<!--    Dashboard-->
+    <string name="title_dashboard_screen">Budget Tracker</string>
+    <string name="remaining_label">remaining</string>
+    <string name="spent_label">spent</string>
+    <string name="days_left_label">%1$d days left</string>
+    <string name="budget_amount_large">£%1$s</string>
+    <string name="recent_expenses_label">Recent expenses</string>
+    <string name="no_budget_dashboard_label">No budget set up</string>
+    <string name="no_budget_hint">Go to Settings to create your first budget</string>
+    <string name="over_budget_label">Over budget!</string>
+    <string name="label_budget_period_label">%1$s budget</string>
+<!--    Analytics-->
+    <string name="title_analytics_screen">Analytics</string>
+    <string name="spending_by_category_label">Spending by category</string>
+    <string name="total_spent_chart_label">total spent</string>
+    <string name="daily_spending_label">Daily spending</string>
+    <string name="vs_last_period_label">vs last period</string>
+    <string name="no_data_label">No spending data yet</string>
+    <string name="no_data_hint">Add some expenses to see your analytics</string>
+    <string name="no_previous_period_label">No previous period to compare</string>
+    <string name="change_up_label">%1$d%%</string>
+    <string name="change_down_label">%1$d%%</string>
+    <string name="change_none_label">0%%</string>
+<!--    Recurring Expenses-->
+    <string name="notification_recurring_title">Recurring Expense</string>
+    <string name="notification_recurring_message">£%1$s deducted for %2$s</string>
+<!--    Notifications-->
+    <string name="notification_70_title">Budget Warning</string>
+    <string name="notification_70_message">You\'ve used 70%% of your budget. £%1$s remaining.</string>
+    <string name="notification_90_title">Budget Alert</string>
+    <string name="notification_90_message">You\'ve used 90%% of your budget! Only £%1$s left.</string>
+    <string name="notification_100_title">Budget Reached</string>
+    <string name="notification_100_message">You\'ve used your entire budget of £%1$s.</string>
+    <string name="notification_over_title">Over Budget!</string>
+    <string name="notification_over_message">You\'ve exceeded your budget by £%1$s. Try to limit your spending.</string>
+</resources>

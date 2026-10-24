@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background">#0D0F14</color>
+    <color name="surface">#161922</color>
+    <color name="card">#1E2330</color>
+    <color name="green_accent">#7DF9A0</color>
+    <color name="blue_accent">#5B8AF0</color>
+    <color name="food_category">#F0D45B</color>
+    <color name="transport_category">#5B8AF0</color>
+    <color name="entertainment_category">#C77DFF</color>
+    <color name="rent_category">#F0855B</color>
+    <color name="danger">#F05B6E</color>
+    <color name="text_primary">#E8ECF4</color>
+    <color name="text_muted">#7A849A</color>
+</resources>
